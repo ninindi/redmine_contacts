@@ -1,8 +1,6 @@
 GEM
   specs:
-    liquid (2.6.3)
-    redmine_crm (0.0.26)
-      liquid (< 2.6.4)
+    redmine_crm (0.0.22)
     ruby-ole (1.2.12)
     spreadsheet (0.6.9)
       ruby-ole (>= 1.0)
@@ -12,7 +10,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  redmine_crm
+  redmine_crm (= 0.0.22)
   spreadsheet (~> 0.6.8)
   vcard (~> 0.2.8)
 
